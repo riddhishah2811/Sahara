@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginSignUPDashboard.AppWorkDetails"
+    tools:context=".UserDashboard.AboutUsCommonActivity"
     android:paddingTop="15dp"
     android:paddingStart="5dp"
     android:paddingEnd="5dp"
@@ -195,6 +195,7 @@
         android:layout_alignParentBottom="true"
         android:background="@color/colorPrimary"
         android:text="Back"
+        android:visibility="gone"
         android:textAllCaps="true"
         android:fontFamily="@font/bungee"
         android:textColor="@color/black"
@@ -203,7 +204,6 @@
         android:paddingStart="5dp"
         android:drawableTint="@color/white"
         android:paddingEnd="5dp"
-        android:layout_marginBottom="7dp"
-        tools:ignore="OnClick" />
+        android:layout_marginBottom="7dp"/>
 
 </RelativeLayout>
